@@ -2,7 +2,9 @@
 
 - link:
     ~/.dotfiles: ''
-    ~/.zshrc: zshrc
+    ~/.zshrc: zsh/zshrc
+    ~/.zsh: zsh/
+    ~/.zshenv: zsh/zshenv
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
