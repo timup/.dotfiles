@@ -1,0 +1,26 @@
+[user]
+	name = Tim Upchurch
+	email = mail@timup.ch
+
+[color]
+    ui = true
+
+[color "branch"]
+    current = yellow reverse
+    local = yello
+    remote = green
+
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = red
+
+[alias]
+  logpretty = log --graph --decorate --pretty=oneline --abbrev-commit
+  s = status
