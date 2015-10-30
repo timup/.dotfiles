@@ -1,3 +1,5 @@
 autoload -U promptinit && promptinit
 
-prompt redhat
+PURE_PROMPT_SYMBOL=$
+
+prompt pure
