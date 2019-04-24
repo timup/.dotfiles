@@ -27,5 +27,6 @@
 [alias]
   logpretty = log --graph --decorate --pretty=oneline --abbrev-commit
   s = status
+  c = commit -S -m
 [credential]
 	helper = osxkeychain
