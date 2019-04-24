@@ -17,12 +17,10 @@ Files that begin with a dot (.)
         $ ./install
     ```
 
-And, voila! Config.  The install script is a component of the [DotBot][dotbot] submodule.
-[dotbot]:https://github.com/anishathalye/dotbot
+And, voila! Config.  The install script is a component of the [DotBot](https://github.com/anishathalye/dotbot) submodule.
 
 #### Disclaimer
 
 Install instructions were written for my own reference. These are my personal settings, and they may not be right for you.  Fork away, but ensure that you know what's about to go down before running the install script. 
 
-.dotfiles are installed after running the Thoughtbot [Laptop][laptop] script.
-[laptop]:https://github.com/thoughtbot/laptop
+.dotfiles are installed after running the Thoughtbot [Laptop](https://github.com/thoughtbot/laptop) script.
