@@ -8,5 +8,4 @@ fi
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
-export ASDF_DATA_DIR=`brew --prefix asdf`/
-source $ASDF_DATA_DIR/asdf.sh
+
