@@ -17,3 +17,6 @@ alias gm='git merge --no-ff'
 # asdf
 source /opt/asdf-vm/asdf.sh
 source /opt/asdf-vm/completions/asdf.zsh
+
+alias ibrew='arch -x86_64 /usr/local/bin/brew'
+alias mbrew='arch -arm64e /opt/homebrew/bin/brew'
