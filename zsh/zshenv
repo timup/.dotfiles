@@ -9,3 +9,7 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:/usr/local/sbin
+export PATH=$PATH:/usr/bin/parity/bin
+export PATH=$PATH:$HOME/.asdf/installs/rust/1.55.0/bin
+export PATH=$PATH:$HOME/.asdf/installs/nodejs/16.13.2/.npm/bin
+. "$HOME/.cargo/env"

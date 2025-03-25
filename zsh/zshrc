@@ -15,8 +15,14 @@ alias gup='git fetch origin && grb origin/$(git_current_branch)'
 alias gm='git merge --no-ff'
 
 # asdf
-source /opt/asdf-vm/asdf.sh
-source /opt/asdf-vm/completions/asdf.zsh
+if [[ "$OSTYPE" == "darwin"* ]]; then
+  source /opt/asdf-vm/asdf.sh
+  source /opt/asdf-vm/completions/asdf.zsh
+fi
 
 alias ibrew='arch -x86_64 /usr/local/bin/brew'
 alias mbrew='arch -arm64e /opt/homebrew/bin/brew'
+plugins=(… zsh-completions)
+autoload -U compinit && compinit
+
+export GPG_TTY=$(tty)
